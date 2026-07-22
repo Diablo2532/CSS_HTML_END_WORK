@@ -330,3 +330,67 @@
 .recommendInfo button:hover {
   background: #bf3d11;
 }
+/* =========================
+   Clients
+========================= */
+
+.clients {
+  padding: 120px 0;
+
+  background: #fff;
+}
+
+.clients h2 {
+  margin-bottom: 8px;
+
+  font-size: 64px;
+  text-align: center;
+
+  color: #203825;
+}
+
+.clients > .container > p {
+  margin-bottom: 70px;
+
+  text-align: center;
+
+  color: #56635a;
+}
+
+.clientsRow {
+  display: grid;
+  justify-content: center;
+  gap: 40px 24px;
+}
+
+.clientsRow:first-of-type {
+  grid-template-columns: repeat(5, 170px);
+}
+
+.clientsRow:last-of-type {
+  grid-template-columns: repeat(4, 170px);
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.client img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+
+  background: #c4c4c4;
+
+  object-fit: cover;
+}
+
+.client h4 {
+  font-size: 18px;
+  text-align: center;
+
+  color: #203825;
+}
