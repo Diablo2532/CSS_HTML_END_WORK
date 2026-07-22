@@ -47,3 +47,62 @@
   text-decoration: none;
 }
 
+
+/* =========================
+   Hero
+========================= */
+
+.hero {
+  position: relative;
+
+  margin: 0;
+  height: 600px;
+
+  background: #cedab2;
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 600px;
+}
+
+.heroLeaf {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.heroLeaf img {
+  display: block;
+}
+
+.heroInfo {
+  display: grid;
+  gap: 25px;
+  max-width: 450px;
+}
+
+.heroInfo h1 {
+  margin: 0;
+
+  font-size: 96px;
+}
+
+.heroInfo p {
+  margin: 0;
+
+  font-size: 28px;
+}
+
+.heroImage {
+  align-self: end;
+}
+
+.heroImage img {
+  display: block;
+  width: 100%;
+}
