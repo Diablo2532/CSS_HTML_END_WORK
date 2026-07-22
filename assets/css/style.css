@@ -255,3 +255,78 @@
 .cardWide button:hover {
   background: #bf3d11;
 }
+
+/* =========================
+   Recommend
+========================= */
+
+.recommend {
+  padding: 40px 0 100px;
+  margin-top: 100px;
+  background: #bfc17a;
+}
+
+.recommend h2 {
+  margin-bottom: 50px;
+
+  font-size: 64px;
+
+  color: #1f3a28;
+}
+
+.recommendGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 70px;
+}
+
+.recommendCard {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.recommendImage {
+  width: 125px;
+  height: 125px;
+  border: 1px solid #6b6b6b;
+
+  background: #fff;
+}
+
+.recommendInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.recommendInfo h3 {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 1.4;
+
+  color: #203825;
+}
+
+.recommendInfo span {
+  font-weight: 400;
+}
+
+.recommendInfo button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #96360d;
+
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: #fff;
+  background: #d64b18;
+
+  cursor: pointer;
+}
+
+.recommendInfo button:hover {
+  background: #bf3d11;
+}
