@@ -106,3 +106,152 @@
   display: block;
   width: 100%;
 }
+/* =========================
+   Contact
+========================= */
+
+.contact {
+  display: flex;
+  gap: 15px;
+
+  color: #fff;
+}
+
+.contact i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #cd4013;
+  border-radius: 50%;
+
+  font-size: 20px;
+
+  background: #cd4013;
+}
+/* =========================
+   Services
+========================= */
+
+.services {
+  padding: 100px 0 40px;
+
+  background: #f4f5ec;
+}
+
+.services h2 {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  font-weight: 700;
+
+  color: #35563d;
+}
+
+/* =========================
+   Services Grid
+========================= */
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* =========================
+   Cards
+========================= */
+
+.card,
+.cardWide {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 760px;
+  padding: 50px;
+  
+  border-radius: 8px;
+
+  color: #fff;
+  background: #35563d;
+}
+
+.cardWide {
+  grid-column: 1 / -1;
+  min-height: 420px;
+}
+
+/* =========================
+   Card Typography
+========================= */
+
+.card h3,
+.cardWide h3 {
+  margin-top: 0;
+
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.05;
+
+  color: #fff;
+}
+
+.card p,
+.cardWide p {
+  flex-grow: 1;
+  max-width: 680px;
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 1.8;
+
+  color: #d7dfd0;
+}
+
+.cardWide p {
+  max-width: 760px;
+}
+
+.card button,
+.cardWide button {
+  align-self: flex-start;
+  width: 100%;
+  max-width: 280px;
+  height: 56px;
+  margin-top: auto;
+  padding: 0;
+  border: 1px solid #000;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: #fff;
+  background: #d64b18;
+
+  cursor: pointer;
+}
+
+.card select,
+.cardWide select {
+  width: 100%;
+  height: 60px;
+  margin-top: 8px;
+  padding: 0 20px;
+  border: 1px solid #fff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #233324;
+  background: #bfc17a;
+
+  outline: none;
+  cursor: pointer;
+}
+
+.card button:hover,
+.cardWide button:hover {
+  background: #bf3d11;
+}
