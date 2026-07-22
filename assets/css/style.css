@@ -583,3 +583,308 @@
 
   color: #56635a;
 }
+/* =========================
+   Mobile
+========================= */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .header {
+    position: static;
+  }
+
+  .headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    min-height: auto;
+    padding: 20px 0;
+  }
+
+  .nameText {
+    font-size: 56px;
+    line-height: .9;
+    text-align: center;
+  }
+
+  .navMenu {
+    display: none;
+  }
+
+  .hero {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .heroContent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+    min-height: auto;
+
+    text-align: center;
+  }
+
+  .heroLeaf {
+    display: none;
+  }
+
+  .heroImage {
+    align-self: center;
+  }
+
+  .heroImage img {
+    width: 240px;
+  }
+
+  .heroInfo {
+    justify-items: center;
+    max-width: 100%;
+  }
+
+  .heroInfo h1 {
+    font-size: 58px;
+    line-height: .9;
+  }
+
+  .heroInfo p {
+    font-size: 22px;
+  }
+
+  .contact {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .services {
+    padding: 50px 0;
+  }
+
+  .services h2 {
+    margin-bottom: 30px;
+
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .servicesGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card,
+  .cardWide {
+    gap: 20px;
+    min-height: auto;
+    padding: 30px;
+  }
+
+  .cardWide {
+    grid-column: auto;
+  }
+
+  .card h3,
+  .cardWide h3 {
+    font-size: 34px;
+    line-height: 1.1;
+  }
+
+  .card p,
+  .cardWide p {
+    max-width: 100%;
+
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .card select,
+  .cardWide select,
+  .card button,
+  .cardWide button {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .recommend {
+    margin-top: 40px;
+    padding: 50px 0;
+  }
+
+  .recommend h2 {
+    margin-bottom: 30px;
+
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .recommendGrid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+    .recommendCard {
+    align-items: flex-start;
+  }
+
+  .recommendImage {
+    width: 90px;
+    height: 90px;
+  }
+
+  .recommendInfo h3 {
+    font-size: 20px;
+  }
+
+  .recommendInfo button {
+    width: 100%;
+    max-width: 140px;
+  }
+
+  .clients {
+    padding: 60px 0;
+  }
+
+  .clients h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .clients > .container > p {
+    margin-bottom: 35px;
+
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .clientsRow,
+  .clientsRow:first-of-type,
+  .clientsRow:last-of-type {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+  }
+
+  .client img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .client h4 {
+    font-size: 16px;
+  }
+
+  .about {
+    margin-top: 60px;
+  }
+
+  .aboutContent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-height: none;
+    padding: 40px 0;
+  }
+
+  .aboutInfo {
+    align-items: center;
+    max-width: 100%;
+
+    text-align: center;
+  }
+
+  .aboutInfo h2 {
+    margin-bottom: 20px;
+
+    font-size: 52px;
+  }
+
+  .aboutInfo p {
+    max-width: 100%;
+
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .aboutImage {
+    margin-bottom: 30px;
+
+    transform: none;
+  }
+
+  .aboutImage img {
+    width: 260px;
+  }
+
+  .testimonial {
+    padding: 50px 0;
+  }
+
+  .quote {
+    top: 0;
+    left: 20px;
+
+    font-size: 60px;
+  }
+
+  .testimonialContent {
+    
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .testimonialContent i {
+    display: none;
+  }
+
+  .testimonialCenter {
+    max-width: 100%;
+  }
+
+  .testimonialText {
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: center;
+  }
+
+  .testimonialCenter h4 {
+    margin-top: 20px;
+
+    text-align: center;
+  }
+
+  .footer {
+    padding: 40px 0 25px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footerLogo {
+    text-align: center;
+  }
+
+  .footerLogo h2 {
+    font-size: 42px;
+  }
+
+  .footerLogo span {
+    font-size: 28px;
+  }
+
+  .footerSocial {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .copyright {
+    margin-top: 25px;
+
+    font-size: 14px;
+  }
+}
